@@ -1,0 +1,100 @@
+[
+    {
+        "Id": "4920270758657684274",
+        "OutboundTag": "direct",
+        "Process": [
+            "gameoverlayui.exe",
+            "gameoverlayui64.exe",
+            "steam.exe",
+            "steamerrorreporter.exe",
+            "steamerrorreporter64.exe",
+            "steamsysinfo.exe",
+            "streaming_client.exe",
+            "WriteMiniDump.exe",
+            "secure_desktop_capture.exe",
+            "steam_monitor.exe",
+            "steamservice.exe",
+            "steamxboxutil.exe",
+            "steamxboxutil64.exe",
+            "x64launcher.exe",
+            "x86launcher.exe",
+            "steamwebhelper.exe",
+            "mediacreationtools.exe",
+            "qbittorrent.exe",
+            "utorrent.exe",
+            "EpicGamesLauncher.exe",
+            "SocialClubHelper.exe",
+            "GTA5_Enhanced.exe",
+            "PlayGTAV.exe",
+            "RockstarErrorHandler.exe",
+            "RockstarService.exe",
+            "Launcher.exe"
+        ],
+        "Enabled": true,
+        "Remarks": "Приложения напрямую"
+    },
+    {
+        "Id": "4699696417188989060",
+        "OutboundTag": "direct",
+        "Domain": [
+            "full:cp.cloudflare.com",
+            "domain:msftconnecttest.com",
+            "domain:msftncsi.com",
+            "domain:connectivitycheck.gstatic.com",
+            "domain:captive.apple.com",
+            "full:detectportal.firefox.com",
+            "domain:networkcheck.kde.org",
+            "full:*.gstatic.com"
+        ],
+        "Enabled": true,
+        "Remarks": "Тестовые сервера напрямую"
+    },
+    {
+        "Id": "4997724754930162598",
+        "OutboundTag": "direct",
+        "Domain": [
+            "geoip:private",
+            "geosite:private"
+        ],
+        "Enabled": true,
+        "Remarks": "Внутренние IP напрямую"
+    },
+    {
+        "Id": "5044163416755429910",
+        "OutboundTag": "direct",
+        "Domain": [
+            "geosite:category-ru"
+        ],
+        "Enabled": true,
+        "Remarks": "RU сервисы напрямую"
+    },
+    {
+        "Id": "5088441230616058078",
+        "OutboundTag": "direct",
+        "Domain": [
+            "domain:ru",
+            "domain:su",
+            "domain:xn--p1ai"
+        ],
+        "Enabled": true,
+        "Remarks": "RU домены напрямую"
+    },
+    {
+        "Id": "5473642517491348851",
+        "OutboundTag": "direct",
+        "Domain": [
+            "geoip:ru"
+        ],
+        "Enabled": true,
+        "Remarks": "RU IP напрямую"
+    },
+    {
+        "Id": "5678151188382969388",
+        "OutboundTag": "proxy",
+        "Domain": [
+            "domain:habr.com"
+        ],
+        "Enabled": true,
+        "Remarks": "Хабр в проксирование"
+    }
+]
