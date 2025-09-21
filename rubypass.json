@@ -1,7 +1,40 @@
 [
     {
-        "Id": "4920270758657684274",
+        "Id": "4866456465314456206",
         "OutboundTag": "direct",
+        "Protocol": [
+            "bittorrent"
+        ],
+        "Enabled": true,
+        "Remarks": "Bittorrent напрямую"
+    },
+    {
+        "Id": "5071661603174159080",
+        "OutboundTag": "direct",
+        "Process": [
+            "qbittorrent.exe",
+            "qbittorrent",
+            "utorrent.exe",
+            "utserver",
+            "bittorrent.exe",
+            "btweb.exe",
+            "utweb.exe"
+        ],
+        "Enabled": true,
+        "Remarks": "Торрент клиенты напрямую"
+    },
+    {
+        "Id": "5716460467234033643",
+        "OutboundTag": "direct",
+        "Ip": [
+            "85.236.96.0/21",
+            "85.236.104.0/23"
+        ],
+        "Domain": [
+            "geosite:category-game-platforms-download",
+            "geosite:category-games",
+            "domain:vivox.com"
+        ],
         "Process": [
             "gameoverlayui.exe",
             "gameoverlayui64.exe",
@@ -19,10 +52,8 @@
             "x64launcher.exe",
             "x86launcher.exe",
             "steamwebhelper.exe",
-            "mediacreationtools.exe",
-            "qbittorrent.exe",
-            "utorrent.exe",
             "EpicGamesLauncher.exe",
+            "EpicGamesUpdater.exe",
             "SocialClubHelper.exe",
             "GTA5_Enhanced.exe",
             "PlayGTAV.exe",
@@ -31,10 +62,19 @@
             "Launcher.exe"
         ],
         "Enabled": true,
+        "Remarks": "Игры напрямую"
+    },
+    {
+        "Id": "5047335929717861451",
+        "OutboundTag": "direct",
+        "Process": [
+            "mediacreationtools.exe"
+        ],
+        "Enabled": true,
         "Remarks": "Приложения напрямую"
     },
     {
-        "Id": "4699696417188989060",
+        "Id": "5047610484491296822",
         "OutboundTag": "direct",
         "Domain": [
             "full:cp.cloudflare.com",
@@ -50,7 +90,7 @@
         "Remarks": "Тестовые сервера напрямую"
     },
     {
-        "Id": "4997724754930162598",
+        "Id": "4655076684093133132",
         "OutboundTag": "direct",
         "Domain": [
             "geoip:private",
@@ -60,16 +100,18 @@
         "Remarks": "Внутренние IP напрямую"
     },
     {
-        "Id": "5044163416755429910",
+        "Id": "5300425688330076271",
         "OutboundTag": "direct",
         "Domain": [
-            "geosite:category-ru"
+            "geosite:category-ru",
+            "domain:yango.com",
+            "domain:yango.tech"
         ],
         "Enabled": true,
         "Remarks": "RU сервисы напрямую"
     },
     {
-        "Id": "5088441230616058078",
+        "Id": "5697831919324647332",
         "OutboundTag": "direct",
         "Domain": [
             "domain:ru",
@@ -80,7 +122,7 @@
         "Remarks": "RU домены напрямую"
     },
     {
-        "Id": "5473642517491348851",
+        "Id": "4808271649230308642",
         "OutboundTag": "direct",
         "Domain": [
             "geoip:ru"
@@ -89,7 +131,7 @@
         "Remarks": "RU IP напрямую"
     },
     {
-        "Id": "5678151188382969388",
+        "Id": "4889164891244253284",
         "OutboundTag": "proxy",
         "Domain": [
             "domain:habr.com"
