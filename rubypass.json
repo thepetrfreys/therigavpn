@@ -116,14 +116,15 @@
         "Domain": [
             "domain:ru",
             "domain:su",
+            "domain:by",
+            "domain:moscow",
             "domain:xn--p1ai",
             "domain:xn--p1acf",
             "domain:xn--80asehdb",
             "domain:xn--c1avg",
             "domain:xn--80aswg",
             "domain:xn--80adxhks",
-            "domain:xn--d1acj3b",
-            "domain:by"
+            "domain:xn--90ais"
         ],
         "Enabled": true,
         "Remarks": "RU домены напрямую"
