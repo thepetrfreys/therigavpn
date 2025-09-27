@@ -1,0 +1,42 @@
+{
+  "servers": [
+    {
+      "tag": "remote",
+      "type": "tcp",
+      "server": "1.1.1.1",
+      "detour": "proxy"
+    },
+    {
+      "tag": "local",
+      "type": "local"
+    }
+  ],
+  "rules": [
+    {
+      "rule_set": [
+        "geosite-category-ru"
+      ],
+      "domain_suffix": [
+        ".ru",
+        ".su",
+        ".moscow",
+        ".xn--p1ai",
+        ".xn--p1acf",
+        ".xn--80asehdb",
+        ".xn--c1avg",
+        ".xn--80aswg",
+        ".xn--80adxhks",
+        ".xn--90ais"
+      ],
+      "server": "local",
+      "strategy": "prefer_ipv4"
+    },
+    {
+      "ip_is_private": true,
+      "server": "local",
+      "strategy": "prefer_ipv4"
+    }
+  ],
+  "final": "remote",
+  "strategy": "prefer_ipv4"
+}
