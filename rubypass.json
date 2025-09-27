@@ -18,7 +18,8 @@
             "utserver",
             "bittorrent.exe",
             "btweb.exe",
-            "utweb.exe"
+            "utweb.exe",
+            "transmission"
         ],
         "Enabled": true,
         "Remarks": "Торрент клиенты напрямую"
