@@ -4,7 +4,7 @@
 set -e
 
 # === Настройки ===
-REPO_URL="https://raw.githubusercontent.com/thepetrfreys/therigavpn/client_cfg/main/guiNDB.db"
+REPO_URL="https://raw.githubusercontent.com/thepetrfreys/therigavpn/main/client_cfg/guiNDB.db"
 TARGET_DIR="$HOME/Library/Application Support/v2rayN/guiConfigs"
 TARGET_FILE="$TARGET_DIR/guiNDB.db"
 
