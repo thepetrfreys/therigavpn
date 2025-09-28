@@ -19,7 +19,7 @@
             "bittorrent.exe",
             "btweb.exe",
             "utweb.exe",
-            "transmission"
+            "transmission-gtk"
         ],
         "Enabled": true,
         "Remarks": "Торрент клиенты напрямую"

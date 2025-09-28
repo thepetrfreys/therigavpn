@@ -1,0 +1,78 @@
+[
+    {
+        "domain": [
+            "full:cp.cloudflare.com",
+            "domain:msftconnecttest.com",
+            "domain:msftncsi.com",
+            "domain:connectivitycheck.gstatic.com",
+            "domain:captive.apple.com",
+            "full:detectportal.firefox.com",
+            "domain:networkcheck.kde.org",
+            "full:*.gstatic.com"
+        ],
+        "enabled": true,
+        "locked": false,
+        "outboundTag": "proxy",
+        "remarks": "Тестовые сервера напрямую"
+    },
+    {
+        "domain": [
+            "geosite:private"
+        ],
+        "enabled": true,
+        "ip": [
+            "geoip:private"
+        ],
+        "locked": false,
+        "outboundTag": "direct",
+        "remarks": "Внутренние IP напрямую"
+    },
+    {
+        "domain": [
+            "geosite:category-ru",
+            "domain:yango.com",
+            "domain:yango.tech"
+        ],
+        "enabled": true,
+        "locked": false,
+        "outboundTag": "direct",
+        "remarks": "RU сервисы напрямую"
+    },
+    {
+        "domain": [
+            "domain:ru",
+            "domain:su",
+            "domain:by",
+            "domain:moscow",
+            "domain:xn--p1ai",
+            "domain:xn--p1acf",
+            "domain:xn--80asehdb",
+            "domain:xn--c1avg",
+            "domain:xn--80aswg",
+            "domain:xn--80adxhks",
+            "domain:xn--90ais"
+        ],
+        "enabled": true,
+        "locked": false,
+        "outboundTag": "direct",
+        "remarks": "RU домены напрямую"
+    },
+    {
+        "enabled": true,
+        "ip": [
+            "geoip:ru"
+        ],
+        "locked": false,
+        "outboundTag": "direct",
+        "remarks": "RU IP напрямую"
+    },
+    {
+        "domain": [
+            "domain:habr.com"
+        ],
+        "enabled": true,
+        "locked": false,
+        "outboundTag": "proxy",
+        "remarks": "Хабр в проксирование"
+    }
+]
