@@ -12,8 +12,8 @@
         ],
         "enabled": true,
         "locked": false,
-        "outboundTag": "proxy",
-        "remarks": "Тестовые сервера напрямую"
+        "outboundTag": "direct",
+        "remarks": "Test servers direct"
     },
     {
         "domain": [
@@ -25,7 +25,7 @@
         ],
         "locked": false,
         "outboundTag": "direct",
-        "remarks": "Внутренние IP напрямую"
+        "remarks": "Local IP direct"
     },
     {
         "domain": [
@@ -36,7 +36,7 @@
         "enabled": true,
         "locked": false,
         "outboundTag": "direct",
-        "remarks": "RU сервисы напрямую"
+        "remarks": "RU services direct"
     },
     {
         "domain": [
@@ -55,7 +55,7 @@
         "enabled": true,
         "locked": false,
         "outboundTag": "direct",
-        "remarks": "RU домены напрямую"
+        "remarks": "RU domains direct"
     },
     {
         "enabled": true,
@@ -64,7 +64,7 @@
         ],
         "locked": false,
         "outboundTag": "direct",
-        "remarks": "RU IP напрямую"
+        "remarks": "RU IP direct"
     },
     {
         "domain": [
@@ -73,6 +73,6 @@
         "enabled": true,
         "locked": false,
         "outboundTag": "proxy",
-        "remarks": "Хабр в проксирование"
+        "remarks": "Habr in proxy"
     }
 ]
