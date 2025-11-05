@@ -1,151 +1,257 @@
 [
-    {
-        "Id": "4866456465314456206",
-        "OutboundTag": "direct",
-        "Protocol": [
-            "bittorrent"
-        ],
-        "Enabled": true,
-        "Remarks": "Bittorrent напрямую"
-    },
-    {
-        "Id": "5071661603174159080",
-        "OutboundTag": "direct",
-        "Process": [
-            "qbittorrent.exe",
-            "qbittorrent",
-            "utorrent.exe",
-            "utserver",
-            "bittorrent.exe",
-            "btweb.exe",
-            "utweb.exe",
-            "transmission-gtk"
-        ],
-        "Enabled": true,
-        "Remarks": "Торрент клиенты напрямую"
-    },
-    {
-        "Id": "5716460467234033643",
-        "OutboundTag": "direct",
-        "Ip": [
-            "85.236.96.0/21",
-            "85.236.104.0/23"
-        ],
-        "Domain": [
-            "geosite:category-game-platforms-download",
-            "geosite:category-games",
-            "domain:vivox.com"
-        ],
-        "Process": [
-            "gameoverlayui.exe",
-            "gameoverlayui64.exe",
-            "steam.exe",
-            "steamerrorreporter.exe",
-            "steamerrorreporter64.exe",
-            "steamsysinfo.exe",
-            "streaming_client.exe",
-            "WriteMiniDump.exe",
-            "secure_desktop_capture.exe",
-            "steam_monitor.exe",
-            "steamservice.exe",
-            "steamxboxutil.exe",
-            "steamxboxutil64.exe",
-            "x64launcher.exe",
-            "x86launcher.exe",
-            "steamwebhelper.exe",
-            "EpicGamesLauncher.exe",
-            "EpicGamesUpdater.exe",
-            "SocialClubHelper.exe",
-            "GTA5_Enhanced.exe",
-            "PlayGTAV.exe",
-            "RockstarErrorHandler.exe",
-            "RockstarService.exe",
-            "Launcher.exe"
-        ],
-        "Enabled": true,
-        "Remarks": "Игры напрямую"
-    },
-    {
-        "Id": "5047335929717861451",
-        "OutboundTag": "direct",
-        "Process": [
-            "mediacreationtools.exe"
-        ],
-        "Enabled": true,
-        "Remarks": "Приложения напрямую"
-    },
-    {
-        "Id": "5047610484491296822",
-        "OutboundTag": "direct",
-        "Domain": [
-            "full:cp.cloudflare.com",
-            "domain:msftconnecttest.com",
-            "domain:msftncsi.com",
-            "domain:connectivitycheck.gstatic.com",
-            "domain:captive.apple.com",
-            "full:detectportal.firefox.com",
-            "domain:networkcheck.kde.org",
-            "full:*.gstatic.com"
-        ],
-        "Enabled": true,
-        "Remarks": "Тестовые сервера напрямую"
-    },
-    {
-        "Id": "4655076684093133132",
-        "OutboundTag": "direct",
-        "Domain": [
-            "geoip:private",
-            "geosite:private"
-        ],
-        "Enabled": true,
-        "Remarks": "Внутренние IP напрямую"
-    },
-    {
-        "Id": "5300425688330076271",
-        "OutboundTag": "direct",
-        "Domain": [
-            "geosite:category-ru",
-            "domain:yango.com",
-            "domain:yango.tech"
-        ],
-        "Enabled": true,
-        "Remarks": "RU сервисы напрямую"
-    },
-    {
-        "Id": "5697831919324647332",
-        "OutboundTag": "direct",
-        "Domain": [
-            "domain:ru",
-            "domain:su",
-            "domain:by",
-            "domain:moscow",
-            "domain:xn--p1ai",
-            "domain:xn--p1acf",
-            "domain:xn--80asehdb",
-            "domain:xn--c1avg",
-            "domain:xn--80aswg",
-            "domain:xn--80adxhks",
-            "domain:xn--90ais"
-        ],
-        "Enabled": true,
-        "Remarks": "RU домены напрямую"
-    },
-    {
-        "Id": "4808271649230308642",
-        "OutboundTag": "direct",
-        "Domain": [
-            "geoip:ru"
-        ],
-        "Enabled": true,
-        "Remarks": "RU IP напрямую"
-    },
-    {
-        "Id": "4889164891244253284",
-        "OutboundTag": "proxy",
-        "Domain": [
-            "domain:habr.com"
-        ],
-        "Enabled": true,
-        "Remarks": "Хабр в проксирование"
-    }
+  {
+    "Id": "4758862741069435934",
+    "OutboundTag": "proxy",
+    "Process": [
+      "mediaget.exe",
+      "mediaget_crashpad_handler.exe",
+      "mediaget",
+      "com.mediaget.android"
+    ],
+    "Enabled": true,
+    "Remarks": "Блокировка нежелательных сервисов"
+  },
+  {
+    "Id": "4915959084192488157",
+    "OutboundTag": "proxy",
+    "Domain": [
+      "domain:habr.com"
+    ],
+    "Enabled": true,
+    "Remarks": "Хабр в проксирование"
+  },
+  {
+    "Id": "5525956188194883907",
+    "OutboundTag": "direct",
+    "Ip": [
+      "45.67.15.97"
+    ],
+    "Domain": [
+      "therigavpn.lv"
+    ],
+    "Enabled": true,
+    "Remarks": "TheBalticWind напрямую"
+  },
+  {
+    "Id": "4702257249788659634",
+    "OutboundTag": "direct",
+    "Protocol": [
+      "bittorrent"
+    ],
+    "Enabled": true,
+    "Remarks": "Bittorrent напрямую"
+  },
+  {
+    "Id": "4826243751488975894",
+    "OutboundTag": "direct",
+    "Process": [
+      "uTorrent.exe",
+      "BitTorrent.exe",
+      "utweb.exe",
+      "btweb.exe",
+      "utorrentie.exe",
+      "bittorrentie.exe",
+      "qbittorrent.exe",
+      "deluge.exe",
+      "Azureus.exe",
+      "tixati.exe",
+      "transmission-qt.exe",
+      "transmission-daemon.exe",
+      "WebTorrent.exe",
+      "PicoTorrent.exe",
+      "FrostWire.exe",
+      "Tribler.exe",
+      "BitComet.exe",
+      "mediaget.exe",
+      "mediaget_crashpad_handler.exe",
+      "uFiler.exe",
+      "TorrServer-windows-386.exe",
+      "TorrServer-windows-amd64.exe",
+      "Transmission",
+      "qBittorrent",
+      "BitTorrent Web",
+      "BitTorrent",
+      "uTorrent Web",
+      "uTorrent",
+      "Folx",
+      "Deluge",
+      "Vuze",
+      "FrostWire",
+      "BiglyBT",
+      "BitLord",
+      "BitComet",
+      "bitlord",
+      "tribler",
+      "WebTorrent",
+      "WebTorrent Helper",
+      "WebTorrent Helper (GPU)",
+      "WebTorrent Helper (Renderer)",
+      "mediaget",
+      "fdm",
+      "Free Download Manager",
+      "qbittorrent",
+      "qbittorrent-nox",
+      "transmission-qt",
+      "transmission-gtk",
+      "transmission-daemon",
+      "deluged",
+      "deluge-gtk",
+      "fragments",
+      "tixati",
+      "frostwire",
+      "vuze",
+      "azureus",
+      "ktorrent",
+      "rtorrent",
+      "tribler",
+      "torrserver",
+      "com.kevinforeman.nzb360",
+      "org.proninyaroslav.libretorrent",
+      "hu.tagsoft.ttorrent.noads",
+      "com.utorrent.client",
+      "hu.tagsoft.ttorrent.lite",
+      "com.utorrent.client.pro",
+      "com.mtorrent.client",
+      "com.bittorrent.client.pro",
+      "com.gray.pikatorrent",
+      "com.yablio.torrentium",
+      "in.gopalakrishnareddy.torrent",
+      "intelligems.torrdroid",
+      "org.jsp.wide",
+      "mobi.zona",
+      "com.bittorrent.client",
+      "com.dv.adm",
+      "org.freedownloadmanager.fdm",
+      "com.houseoflife.bitlord",
+      "connect.torrentpower",
+      "com.amnis",
+      "com.biglybt.android.client",
+      "com.delphicoder.flud",
+      "com.mediaget.android",
+      "com.delphicoder.flud.paid",
+      "org.transdroid.lite",
+      "idm.internet.download.manager",
+      "com.bitcomet.android",
+      "org.equeim.tremotesf",
+      "ru.yourok.torrserve",
+      "com.gianlu.aria2app"
+    ],
+    "Enabled": true,
+    "Remarks": "Торрент клиенты напрямую"
+  },
+  {
+    "Id": "5057368834023227781",
+    "OutboundTag": "direct",
+    "Ip": [
+      "85.236.96.0/21",
+      "85.236.104.0/23",
+      "95.165.158.214"
+    ],
+    "Domain": [
+      "geosite:category-game-platforms-download",
+      "geosite:category-games",
+      "domain:vivox.com",
+      "domain:mine01.garba-345.ru"
+    ],
+    "Process": [
+      "gameoverlayui.exe",
+      "gameoverlayui64.exe",
+      "steam.exe",
+      "steamerrorreporter.exe",
+      "steamerrorreporter64.exe",
+      "steamsysinfo.exe",
+      "streaming_client.exe",
+      "WriteMiniDump.exe",
+      "secure_desktop_capture.exe",
+      "steam_monitor.exe",
+      "steamservice.exe",
+      "steamxboxutil.exe",
+      "steamxboxutil64.exe",
+      "x64launcher.exe",
+      "x86launcher.exe",
+      "steamwebhelper.exe",
+      "EpicGamesLauncher.exe",
+      "EpicGamesUpdater.exe",
+      "SocialClubHelper.exe",
+      "GTA5_Enhanced.exe",
+      "PlayGTAV.exe",
+      "RockstarErrorHandler.exe",
+      "RockstarService.exe",
+      "Launcher.exe",
+      "simrail.exe"
+    ],
+    "Enabled": true,
+    "Remarks": "Игры напрямую"
+  },
+  {
+    "Id": "5673653446214132879",
+    "OutboundTag": "direct",
+    "Process": [
+      "mediacreationtools.exe",
+      "ru.yourok.num",
+      "com.lazycatsoftware.lmd",
+      "top.rootu.lampa"
+    ],
+    "Enabled": true,
+    "Remarks": "Приложения напрямую"
+  },
+  {
+    "Id": "4681682185442311936",
+    "OutboundTag": "direct",
+    "Domain": [
+      "full:cp.cloudflare.com",
+      "domain:msftconnecttest.com",
+      "domain:msftncsi.com",
+      "domain:captive.apple.com",
+      "full:detectportal.firefox.com",
+      "domain:networkcheck.kde.org",
+      "full:*.gstatic.com"
+    ],
+    "Enabled": true,
+    "Remarks": "Тестовые сервера напрямую"
+  },
+  {
+    "Id": "5732249529279687271",
+    "OutboundTag": "direct",
+    "Ip": [
+      "geoip:private"
+    ],
+    "Domain": [
+      "geosite:private"
+    ],
+    "Enabled": true,
+    "Remarks": "Внутренние IP напрямую"
+  },
+  {
+    "Id": "5489333082191137227",
+    "OutboundTag": "direct",
+    "Domain": [
+      "domain:by",
+      "domain:moscow",
+      "domain:xn--90ais"
+    ],
+    "Enabled": true,
+    "Remarks": "RU/BY домены напрямую"
+  },
+  {
+    "Id": "4630705178470537501",
+    "OutboundTag": "direct",
+    "Domain": [
+      "geosite:category-ru",
+      "domain:yango.com",
+      "domain:yango.tech"
+    ],
+    "Enabled": true,
+    "Remarks": "RU сервисы напрямую"
+  },
+  {
+    "Id": "4963059577920442395",
+    "OutboundTag": "direct",
+    "Ip": [
+      "geoip:ru",
+      "geoip:by"
+    ],
+    "Enabled": true,
+    "Remarks": "RU/BY IP напрямую"
+  }
 ]
