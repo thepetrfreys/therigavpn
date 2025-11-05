@@ -4,11 +4,14 @@
       "tag": "remote",
       "type": "tcp",
       "server": "1.1.1.1",
-      "detour": "proxy"
+      "detour": "proxy",
+      "independent_cache": true
     },
     {
       "tag": "local",
-      "type": "local"
+      "type": "local",
+      "prefer_go": true,
+      "independent_cache": true
     }
   ],
   "rules": [
@@ -29,7 +32,7 @@
         ".xn--90ais"
       ],
       "server": "local",
-      "strategy": "prefer_ipv4"
+      "strategy": "ipv4_only"
     },
     {
       "ip_is_private": true,
@@ -38,5 +41,7 @@
     }
   ],
   "final": "remote",
-  "strategy": "prefer_ipv4"
+  "strategy": "ipv4_only",
+  "cache_size": 4096,
+  "cache_ttl": 3600
 }
