@@ -47,7 +47,6 @@
     "DisplayRealTimeSpeed": false,
     "KeepOlderDedupl": false,
     "AutoUpdateInterval": 0,
-    "EnableSecurityProtocolTls13": false,
     "TrayMenuServersLimit": 20,
     "EnableHWA": false,
     "EnableLog": true
@@ -59,14 +58,14 @@
   "UiItem": {
     "EnableAutoAdjustMainLvColWidth": true,
     "EnableUpdateSubOnlyRemarksExist": false,
-    "MainGirdHeight1": 240,
-    "MainGirdHeight2": 240,
+    "MainGirdHeight1": 242,
+    "MainGirdHeight2": 242,
     "MainGirdOrientation": 1,
     "ColorPrimaryName": null,
-    "CurrentTheme": null,
+    "CurrentTheme": "FollowSystem",
     "CurrentLanguage": "ru",
     "CurrentFontFamily": null,
-    "CurrentFontSize": 0,
+    "CurrentFontSize": 14,
     "EnableDragDropSort": false,
     "DoubleClick2Activate": false,
     "AutoHideStartup": false,
@@ -160,13 +159,23 @@
         "TypeName": "RoutingSettingWindow",
         "Width": 900,
         "Height": 600
+      },
+      {
+        "TypeName": "RoutingRuleSettingWindow",
+        "Width": 900,
+        "Height": 600
+      },
+      {
+        "TypeName": "RoutingRuleDetailsWindow",
+        "Width": 900,
+        "Height": 600
       }
     ]
   },
   "ConstItem": {
     "SubConvertUrl": null,
     "GeoSourceUrl": "https://github.com/runetfreedom/russia-v2ray-rules-dat/releases/latest/download/{0}.dat",
-    "SrsSourceUrl": null,
+    "SrsSourceUrl": "https://raw.githubusercontent.com/runetfreedom/russia-v2ray-rules-dat/release/sing-box/rule-set-{0}/{1}.srs",
     "RouteRulesTemplateSourceUrl": null
   },
   "SpeedTestItem": {
@@ -216,7 +225,7 @@
   "CheckUpdateItem": {
     "CheckPreReleaseUpdate": false,
     "SelectedCoreTypes": [
-      "v2rayN",
+      "Xray",
       "sing_box",
       "GeoFiles"
     ]
@@ -290,6 +299,14 @@
     {
       "ConfigType": 11,
       "CoreType": 2
+    },
+    {
+      "ConfigType": 101,
+      "CoreType": 2
+    },
+    {
+      "ConfigType": 102,
+      "CoreType": 2
     }
   ],
   "SimpleDNSItem": {
@@ -300,8 +317,7 @@
     "BlockBindingQuery": true,
     "DirectDNS": "https://dns.alidns.com/dns-query",
     "RemoteDNS": "https://cloudflare-dns.com/dns-query",
-    "SingboxOutboundsResolveDNS": "https://dns.alidns.com/dns-query",
-    "SingboxFinalResolveDNS": "223.5.5.5",
+    "BootstrapDNS": "223.5.5.5",
     "RayStrategy4Freedom": null,
     "SingboxStrategy4Direct": null,
     "SingboxStrategy4Proxy": null,
